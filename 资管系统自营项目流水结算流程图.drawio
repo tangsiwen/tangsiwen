@@ -1,0 +1,141 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="E03xrOa4pwk9rpJncFD7">
+    <mxGraphModel dx="1414" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-7" edge="1" parent="1" source="C2NrguzsoRH5tMhcKcP3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="C2NrguzsoRH5tMhcKcP3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="开始" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-8" edge="1" parent="1" source="C2NrguzsoRH5tMhcKcP3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="C2NrguzsoRH5tMhcKcP3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;font-family: 宋体;&quot;&gt;结算员申请结算&lt;/span&gt;&lt;span style=&quot;font-family: 宋体;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: 宋体;&quot;&gt;项目名称，结算周期&lt;/span&gt;&lt;span style=&quot;font-family: Calibri;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="170" x="315" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-9" edge="1" parent="1" source="C2NrguzsoRH5tMhcKcP3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="C2NrguzsoRH5tMhcKcP3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;font-family: 宋体;&quot;&gt;读取项目的费率配置并创建结算任务&lt;br&gt;结算状态：待上传流水&lt;/span&gt;&lt;span style=&quot;font-family: Calibri;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="250" x="275" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-10" edge="1" parent="1" source="C2NrguzsoRH5tMhcKcP3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="C2NrguzsoRH5tMhcKcP3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" value="财务上传流水" vertex="1">
+          <mxGeometry height="40" width="160" x="320" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-11" edge="1" parent="1" source="C2NrguzsoRH5tMhcKcP3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="C2NrguzsoRH5tMhcKcP3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-12" connectable="0" parent="C2NrguzsoRH5tMhcKcP3-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.0909" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-14" edge="1" parent="1" source="C2NrguzsoRH5tMhcKcP3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="C2NrguzsoRH5tMhcKcP3-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-35" connectable="0" parent="C2NrguzsoRH5tMhcKcP3-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.4" y="-4" as="geometry">
+            <mxPoint x="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;font-family: 宋体;&quot;&gt;财务确认是否已上传所有流水并通知结算员结算&lt;/span&gt;&lt;span style=&quot;font-family: Calibri;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="245" x="277.5" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-41" edge="1" parent="1" source="C2NrguzsoRH5tMhcKcP3-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="C2NrguzsoRH5tMhcKcP3-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="结算员点击开始结算&lt;br&gt;分析状态：分析中" vertex="1">
+          <mxGeometry height="30" width="120" x="340" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-18" edge="1" parent="1" source="C2NrguzsoRH5tMhcKcP3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="C2NrguzsoRH5tMhcKcP3-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="读取流水文件信息并保存（包括：户名，卡号，收入笔数，支出笔数，流水记录）" vertex="1">
+          <mxGeometry height="60" width="160" x="320" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-23" edge="1" parent="1" source="C2NrguzsoRH5tMhcKcP3-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="C2NrguzsoRH5tMhcKcP3-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="逐条分析流水的款项类型" vertex="1">
+          <mxGeometry height="60" width="160" x="320" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-21" edge="1" parent="1" source="C2NrguzsoRH5tMhcKcP3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="C2NrguzsoRH5tMhcKcP3-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="855" />
+              <mxPoint x="540" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-22" connectable="0" parent="C2NrguzsoRH5tMhcKcP3-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="0.1404" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-25" edge="1" parent="1" source="C2NrguzsoRH5tMhcKcP3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="C2NrguzsoRH5tMhcKcP3-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-34" connectable="0" parent="C2NrguzsoRH5tMhcKcP3-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.2" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-20" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="是否分析完成" vertex="1">
+          <mxGeometry height="70" width="140" x="330" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-30" edge="1" parent="1" source="C2NrguzsoRH5tMhcKcP3-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="C2NrguzsoRH5tMhcKcP3-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="计算处置费&lt;br&gt;任务状态：分析完成" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-29" edge="1" parent="1" source="C2NrguzsoRH5tMhcKcP3-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="C2NrguzsoRH5tMhcKcP3-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-31" connectable="0" parent="C2NrguzsoRH5tMhcKcP3-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.1178" y="-1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-33" edge="1" parent="1" source="C2NrguzsoRH5tMhcKcP3-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="C2NrguzsoRH5tMhcKcP3-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-36" connectable="0" parent="C2NrguzsoRH5tMhcKcP3-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.4" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-27" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="结算员查看已分析流水，回款明细，决定是否要重新分析" vertex="1">
+          <mxGeometry height="70" width="195" x="302.5" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-38" edge="1" parent="1" source="C2NrguzsoRH5tMhcKcP3-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="C2NrguzsoRH5tMhcKcP3-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="生成结算表并下载，然后发给甲方结算&lt;br&gt;状态：待结算" vertex="1">
+          <mxGeometry height="60" width="225" x="287.5" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-43" edge="1" parent="1" source="C2NrguzsoRH5tMhcKcP3-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="C2NrguzsoRH5tMhcKcP3-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="甲方打款后，财务上传凭证&lt;br&gt;任务状态：已结算" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-40" edge="1" parent="1" source="C2NrguzsoRH5tMhcKcP3-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="C2NrguzsoRH5tMhcKcP3-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="结算状态：待结算&lt;br&gt;分析状态：待分析" vertex="1">
+          <mxGeometry height="30" width="120" x="340" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="C2NrguzsoRH5tMhcKcP3-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="1320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
